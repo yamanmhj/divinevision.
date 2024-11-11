@@ -47,7 +47,7 @@ function Bottom() {
             <li className="py-1">
               <a href="/" className="text-white hover:text-indigo-600">
                 <span
-                  className="text-xl  lg:text-2xl sm:text-xl"
+                  className="text-xl  lg:text-xl sm:text-xl"
                   style={{ color: "#E1D5ED" }}
                 >
                   {" - "} Home
@@ -57,7 +57,7 @@ function Bottom() {
             <li className="py-1">
               <a href="/Aboutus" className="text-white hover:text-indigo-600">
                 <span
-                  className="text-xl  lg:text-2xl sm:text-xl"
+                  className="text-xl  lg:text-xl sm:text-xl"
                   style={{ color: "#E1D5ED" }}
                 >
                   {" - "} About us
@@ -67,7 +67,7 @@ function Bottom() {
             <li className="py-1">
               <a href="/Services" className="text-white hover:text-indigo-600">
                 <span
-                  className="text-xl  lg:text-2xl sm:text-xl"
+                  className="text-xl  lg:text-xl sm:text-xl"
                   style={{ color: "#E1D5ED" }}
                 >
                   {" - "} Our Services
@@ -78,7 +78,7 @@ function Bottom() {
             <li className="py-1">
               <a href="/Support" className="text-white hover:text-indigo-600">
                 <span
-                  className="text-xl  lg:text-2xl sm:text-xl"
+                  className="text-xl  lg:text-xl sm:text-xl"
                   style={{ color: "#E1D5ED" }}
                 >
                   {" - "} Support in Australia
@@ -92,7 +92,7 @@ function Bottom() {
                 className="text-white hover:text-indigo-600"
               >
                 <span
-                  className="text-xl  lg:text-2xl sm:text-xl"
+                  className="text-xl  lg:text-xl sm:text-xl"
                   style={{ color: "#E1D5ED" }}
                 >
                   {" - "} Trust and Safety
@@ -102,7 +102,7 @@ function Bottom() {
             <li className="py-1">
               <a href="/" className="text-white hover:text-indigo-600">
                 <span
-                  className="text-xl  lg:text-2xl sm:text-xl"
+                  className="text-xl  lg:text-xl sm:text-xl"
                   style={{ color: "#E1D5ED" }}
                 >
                   {" - "} Terms Of Services
@@ -116,7 +116,7 @@ function Bottom() {
           <div className="flex items-center mb-10">
             <img className="h-12" src={phone} alt="phone" />
             <div className="flex-col ml-5">
-              <p className="text-2xl font-bold" style={{ color: "#E1D5ED" }}>
+              <p className="text-xl font-bold" style={{ color: "#E1D5ED" }}>
                 Phone
               </p>
               <p className="text-xl mt-3" style={{ color: "#E1D5ED" }}>
@@ -128,7 +128,7 @@ function Bottom() {
           <div className="flex items-center">
             <img className="h-12" src={mail} alt="email" />
             <div className="flex-col ml-5">
-              <p className="text-2xl font-bold" style={{ color: "#E1D5ED" }}>
+              <p className="text-xl font-bold" style={{ color: "#E1D5ED" }}>
                 Email
               </p>
               <p className="text-xl mt-3" style={{ color: "#E1D5ED" }}>
@@ -148,7 +148,7 @@ function Bottom() {
           care. Our registered office is located at Sydney.
         </p>
 
-        <div className="flex justify-center my-10">
+        <div className="flex justify-center my-5">
           <span className="mt-1 text-xl" style={{ color: "#E1D5ED" }}>
             c 2024 Divine Vision
           </span>

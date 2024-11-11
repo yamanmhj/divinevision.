@@ -10,7 +10,7 @@ const NavBar = () => {
   };
   return (
     <nav
-      className="  sticky w-full flex top-0 justify-evenly items-center  z - 50  shadow-md "
+      className="  sticky w-full flex top-0  pb-5 justify-evenly items-center  z - 50  shadow-md "
       style={{ backgroundColor: "#060733", color: "white" }}
     >
       <div className=" container ">
@@ -21,7 +21,7 @@ const NavBar = () => {
           {navItems.map((item, index) => (
             <li
               key={index}
-              className=" py-2 px-2 rounded-full "
+              className=" py-3 px-2 transition-all duration-250 hover:bg-[#00A7A7] hover:scale-110 rounded-full "
               style={{ borderColor: "#28228A" }}
             >
               <a href={item.href}>{item.label}</a>
