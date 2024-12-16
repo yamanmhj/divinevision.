@@ -18,7 +18,7 @@ CORS(app)
 app.config['MAIL_SERVER'] = ''  # Your SMTP server
 app.config['MAIL_PORT'] = 465  # Usually 465 for SSL or 587 for TLS
 app.config['MAIL_USERNAME'] = ''  # Your email
-app.config['MAIL_PASSWORD'] = 'tpneunbrtvbosqls'  # Your email password (or app-specific password)
+app.config['MAIL_PASSWORD'] = ''  # Your email password (or app-specific password)
 app.config['MAIL_USE_TLS'] = False  # Enable if using TLS (port 587)
 app.config['MAIL_USE_SSL'] = True  # Enable if using SSL (port 465)
 
